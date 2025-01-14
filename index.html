@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <main id="main-content">
+          <section class="header">
+              <h1 id="title">Formulario TMattyCode</h1>
+              <p id="description">Esta es una muestra de lo que he hecho en el curso de Responsive Web Design</p>
+          </section>
+          <section class="form-section">
+              <form id="survey-form">
+                  <div class="form-group">
+                      <label id="name-label" for="name">Nombre:</label>
+                      <input id="name" type="text" required placeholder="Tu nombre">
+                  </div>
+
+                  <div class="form-group">
+                      <label id="email-label" for="email">Email:</label>
+                      <input id="email" type="email" required placeholder="Tu email">
+                  </div>
+
+                  <div class="form-group">
+                      <label id="number-label" for="number">Edad:</label>
+                      <input id="number" type="number" min="18" max="36" placeholder="Tu edad">
+                  </div>
+
+                  <div class="form-group">
+                      <label for="dropdown">¿Cómo te sientes?:</label>
+                      <select id="dropdown">
+                          <option value="hambre">Hambre</option>
+                          <option value="miedo">Miedo</option>
+                          <option value="frio">Calor</option>
+                      </select>
+                  </div>
+
+                  <fieldset class="form-group">
+                      <legend>Genero</legend>
+                      <label><input type="radio" value="hombre" name="genero" checked> Hombre</label>
+                      <label><input type="radio" value="mujer" name="genero"> Mujer</label>
+                  </fieldset>
+
+                  <fieldset class="form-group">
+                      <legend>Selecciona subgeneros de metal favoritos:</legend>
+                      <label><input type="checkbox" value="trash-metal"> Trash Metal</label>
+                      <label><input type="checkbox" value="metalcore"> Metalcore</label>
+                      <label><input type="checkbox" value="nu-metal"> Nu Metal</label>
+                      <label><input type="checkbox" value="power-metal"> Power Metal</label>
+                      <label><input type="checkbox" value="black-metal"> Black Metal</label>
+                      <label><input type="checkbox" value="death-metal"> Death Metal</label>
+                  </fieldset>
+
+                  <div class="form-group">
+                      <label for="comments">Comentarios:</label>
+                      <textarea id="comments" placeholder="Escribe tus comentarios aquí..."></textarea>
+                  </div>
+
+                  <div class="form-group">
+                      <input id="submit" type="submit" value="Enviar">
+                  </div>
+              </form>
+          </section>
+      </main>
+  </body>
+</html>
