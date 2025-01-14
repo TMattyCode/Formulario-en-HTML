@@ -1,2 +1,2 @@
-# Formulario-en-HTML
-Formulario producto de mi certificación Responsive Web Design en freeCodeCamp
+# Survey-Form-en-HTML
+Primer proyecto para obtener certificación de Responsive Web Design en freeCodeCamp
